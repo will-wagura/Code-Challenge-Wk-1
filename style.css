@@ -37,6 +37,7 @@ header {
 
 .card {
   width: 350px;
+  height: 56vh;
   padding: 30px;
   margin: 30px;
   margin-top: 50px;
@@ -116,7 +117,7 @@ form button {
   height: 45px;
   margin: 45px, 0;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   height: 100%;
   width: 100%;
   outline: none;
@@ -138,5 +139,5 @@ form button:hover {
 #salary {
   text-align: center;
   font-size: 16px;
-  padding: 20px;
+  padding: 10px;
 }
