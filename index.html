@@ -58,17 +58,17 @@
             <form>
               <div class="input-field">
                 <span class="details">LICENSE PLATE</span>
-                <input type="alpha" placeholder="Enter Plates" required />
+                <input type="alpha" id="license-plates" name="license-plates" placeholder="Enter Plates" required />
               </div>
               <div class="input-field">
                 <span class="details">INPUT SPEED</span>
-                <input type="number" placeholder="Enter Speed" required />
+                <input type="number" id="speed" name="speed" placeholder="Enter Speed" required />
               </div>
               <div class="button">
-                <button type="button" onclick="">Check Speed</button>
+                <button type="button" onclick="calculateDemeritPoints()">Check Speed</button>
               </div>
             </form>
-            <p id="demerit points"></p>
+            <p id="demerit-points"></p>
           </div>
         </div>
         <!-- Creates a card that represents the Net salary calculator function script.
@@ -79,11 +79,11 @@
             <form>
               <div class="input-field">
                 <span class="details">BASIC SALARY</span>
-                <input type="number" placeholder="KSH" required />
+                <input type="number" id="basic-salary" name="basic-salary" placeholder="KSH" required />
               </div>
               <div class="input-field">
                 <span class="details">ADDITIONAL BENEFITS</span>
-                <input type="number" placeholder="KSH" required />
+                <input type="number" id="benefits" name="benefits" placeholder="KSH" required />
               </div>
               <div class="button">
                 <button type="button" onclick="">Calculate</button>
