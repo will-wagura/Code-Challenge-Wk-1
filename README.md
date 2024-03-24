@@ -24,3 +24,15 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 
 - [KRA Tax Rates(https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye)]
 - [NHIF and NSSF rates(https://www.aren.co.ke/payroll/taxrates.htm)]
+
+## Technologies Used
+- HTML
+- JavaScript
+- CSS
+
+## Requirements needed
+- Basic programming knowledge on JavaScript/HTML
+- Visual Studio Code as your code editor
+
+## Copyright and License Information
+© 2024 Will Wagura. All rights reserved.
