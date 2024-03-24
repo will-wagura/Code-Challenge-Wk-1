@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position: absolute ;
   top: 0;
   left: 0;
   width: 100%;
@@ -33,11 +33,10 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 150px;
 }
 
 .card {
-  width: 400px;
+  width: 350px;
   padding: 30px;
   margin: 30px;
   background: antiquewhite;
