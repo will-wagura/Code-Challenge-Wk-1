@@ -29,24 +29,25 @@
             <form>
               <div class="input-field">
                 <span class="details">MATHS</span>
-                <input type="number" placeholder="Enter marks" required />
+                <input type="number" id="score1" name="MATHS" placeholder="Enter marks" max="100" required />
               </div>
               <div class="input-field">
                 <span class="details">CHEMISTRY</span>
-                <input type="number" placeholder="Enter marks" required />
+                <input type="number" id="score2" name="CHEMISTRY" placeholder="Enter marks" max="100" required />
               </div>
               <div class="input-field">
                 <span class="details">PHYSICS</span>
-                <input type="number" placeholder="Enter Marks" required />
+                <input type="number" id="score3" name="PHYSICS" placeholder="Enter Marks" max="100" required />
               </div>
               <div class="input-field">
                 <span class="details">BIOLOGY</span>
-                <input type="number" placeholder="Enter marks" required />
+                <input type="number" id="score4" name="BIOLOGY" placeholder="Enter marks" max="100" required />
               </div>
               <div class="button">
-                <input type="submit" value="Show Result" />
+                <button type="button" onclick="calculateGrade()">Show Result</button>
               </div>
             </form>
+            <p id="results"></p>
           </div>
         </div>
         <!-- Creates a card that represents the speed detector function script.
@@ -64,9 +65,10 @@
                 <input type="number" placeholder="Enter Speed" required />
               </div>
               <div class="button">
-                <input type="submit" value="Check Speed" />
+                <button type="button" onclick="">Check Speed</button>
               </div>
             </form>
+            <p id="demerit points"></p>
           </div>
         </div>
         <!-- Creates a card that represents the Net salary calculator function script.
@@ -84,9 +86,10 @@
                 <input type="number" placeholder="KSH" required />
               </div>
               <div class="button">
-                <input type="submit" value="Caclulate" />
+                <button type="button" onclick="">Calculate</button>
               </div>
             </form>
+            <p id="salary"></p>
           </div>
         </div>
       </div>
