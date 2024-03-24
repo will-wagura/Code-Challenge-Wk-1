@@ -1,3 +1,5 @@
+/* GLobal Card Styling*/
+
 *{
     margin: 0;
     padding: 0;
@@ -24,17 +26,36 @@ header {
     text-align: center;
 }
 
-/* Styles the Grader card */
-.grader-container {
-    width: 500px;
-    height: auto;
-    padding: 40px;
-    background: antiquewhite;
-    position: relative;
-    border-radius: 15px;
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.card-content h2 {
+.card {
+    width: 350px;
+    height: auto;
+    padding: 30px;
+    margin: 30px;
+    background: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* Styles the cards */
+
+.grader-content h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.speed-content h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.net-content h2 {
     text-align: center;
     padding: 20px;
 }
@@ -94,5 +115,3 @@ form .button input {
 form .button input:hover {
     background-color: rgb(0,136,168);
 }
-
-/* Styles the speed detector card */

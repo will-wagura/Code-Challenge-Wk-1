@@ -1,56 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Code Challenge</title>
-</head>
-<body>
+  </head>
+  <body>
     <script src="Student Grader/index.js"></script>
     <script src="Speed-Detector/index.js"></script>
     <script src="Net-Salary/index.js"></script>
     <header>
-        <h1 class="logo">CODE CHALLENGE</h1>
+      <h1 class="logo">CODE CHALLENGE</h1>
     </header>
     <main>
+      <div class="card-container">
         <!-- Creates a card that represents the Student grader function script.
         Takes in the marks and then triggers the grade to function to calculate what grade the student acquires  -->
-        <div class="grader-container">
-            <div class="card">
-                <img src="" alt=""/>
-                <div class="card-content">
-                    <h2>STUDENT GRADER</h2>
-                    <form>
-                        <div class="input-field">
-                            <span class="details">MATHS</span>
-                            <input type="number" placeholder="Enter marks" required/>
-                        </div>
-                        <div class="input-field">
-                            <span class="details">CHEMISTRY</span>
-                            <input type="number" placeholder="Enter marks" required/>
-                        </div>
-                        <div class="input-field">
-                            <span class="details">PHYSICS</span>
-                            <input type="number" placeholder="Enter Marks" required/>
-                        </div>
-                        <div class="input-field">
-                            <span class="details">BIOLOGY</span>
-                            <input type="number" placeholder="Enter marks" required/>
-                        </div>
-                        <div class="button">
-                        <input type="submit" value="Show Result"/>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class="card">
+          <div class="grader-content">
+            <h2>STUDENT GRADER</h2>
+            <form>
+              <div class="input-field">
+                <span class="details">MATHS</span>
+                <input type="number" placeholder="Enter marks" required />
+              </div>
+              <div class="input-field">
+                <span class="details">CHEMISTRY</span>
+                <input type="number" placeholder="Enter marks" required />
+              </div>
+              <div class="input-field">
+                <span class="details">PHYSICS</span>
+                <input type="number" placeholder="Enter Marks" required />
+              </div>
+              <div class="input-field">
+                <span class="details">BIOLOGY</span>
+                <input type="number" placeholder="Enter marks" required />
+              </div>
+              <div class="button">
+                <input type="submit" value="Show Result" />
+              </div>
+            </form>
+          </div>
         </div>
-        <div></div>
-        <div></div>
+        <!-- Creates a card that represents the speed detector function script.
+        Takes in the license plate which will be linked to a database and speed values and then triggers the function to calculate the amount of points to be deducted based off how fast the driver was going  -->
+        <div class="card">
+          <div class="speed-content">
+            <h2>SPEED DETECTOR</h2>
+            <form>
+              <div class="input-field">
+                <span class="details">LICENSE PLATE</span>
+                <input type="number" placeholder="Enter Plates" required />
+              </div>
+              <div class="input-field">
+                <span class="details">INPUT SPEED</span>
+                <input type="number" placeholder="Enter Speed" required />
+              </div>
+              <div class="button">
+                <input type="submit" value="Check Speed" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Creates a card that represents the Net salary calculator function script.
+        Takes in the salary values as well as the benefits and then triggers the function to give a breakdown of various cuts and outputs the net salary -->
+        <div class="card">
+          <div class="net-content">
+            <h2>NET SALARY CALCULATOR</h2>
+            <form>
+              <div class="input-field">
+                <span class="details">BASIC SALARY</span>
+                <input type="number" placeholder="KSH" required />
+              </div>
+              <div class="input-field">
+                <span class="details">ADDITIONAL BENEFITS</span>
+                <input type="number" placeholder="KSH" required />
+              </div>
+              <div class="button">
+                <input type="submit" value="Caclulate" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
-    
-</body>
+  </body>
 </html>
