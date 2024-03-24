@@ -1,5 +1,5 @@
 # CODE CHALLENGE
-This repository contains solutions to three challenges in JavaScript
+This repository contains solutions to three challenges in JavaScript with the addition of HTML/CSS file for interaction.
 
 ## Developers name
 William Ndirangu
@@ -32,8 +32,8 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 - CSS
 
 ## Requirements needed
-- Basic programming knowledge on JavaScript/HTML
-- Visual Studio Code as your code editor
+- Basic programming knowledge on JavaScript/HTML.
+- Visual Studio Code as your code editor.
 
 ## Copyright and License Information
 © 2024 Will Wagura. All rights reserved.
