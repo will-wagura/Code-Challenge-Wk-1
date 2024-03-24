@@ -24,6 +24,9 @@ header {
   width: 100%;
   padding: 10px;
   text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: 2px;
 }
 
 .card-container {
