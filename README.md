@@ -5,6 +5,7 @@ This repository contains solutions to three challenges in JavaScript
 William Ndirangu
 
 ## Live LInk
+https://will-wagura.github.io/Code-Challenge-Wk-1/
 
 ## Description
 ### Challenge 1: Student Grade Generator
@@ -22,8 +23,8 @@ Writes a program that takes as input the speed of a car e.g 80. If the speed is 
 ### Challenge 3: Net Salary Calculator
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary using the values in the links below
 
-- [KRA Tax Rates(https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye)]
-- [NHIF and NSSF rates(https://www.aren.co.ke/payroll/taxrates.htm)]
+- [KRA Tax Rates](https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye)
+- [NHIF and NSSF rates](https://www.aren.co.ke/payroll/taxrates.htm)
 
 ## Technologies Used
 - HTML
