@@ -28,7 +28,7 @@
         <div class="card">
           <div class="grader-content">
             <h2>STUDENT GRADER</h2>
-            <form>
+            <form id="grader" onsubmit="return validateFormGrader()">
               <div class="input-field">
                 <span class="details">MATHS</span>
                 <input type="number" id="score1" name="MATHS" placeholder="Enter marks" max="100" required />
@@ -46,9 +46,10 @@
                 <input type="number" id="score4" name="BIOLOGY" placeholder="Enter marks" max="100" required />
               </div>
               <div class="button">
-                <button type="button" onclick="calculateGrade()">Show Result</button>
+                <button type="submit">Show Result</button>
               </div>
             </form>
+            <p id="error"></p>
             <p id="results"></p>
           </div>
         </div>
@@ -57,19 +58,20 @@
         <div class="card">
           <div class="speed-content">
             <h2>SPEED DETECTOR</h2>
-            <form>
+            <form id="detector" onsubmit="return validateFormDetector()">
               <div class="input-field">
                 <span class="details">LICENSE PLATE</span>
-                <input type="alpha" id="license-plates" name="license-plates" placeholder="Enter Plates" required />
+                <input type="alpha" id="license-plates" name="license-plates" placeholder="Enter Plates" />
               </div>
               <div class="input-field">
                 <span class="details">INPUT SPEED</span>
                 <input type="number" id="speed" name="speed" placeholder="Enter Speed" required />
               </div>
               <div class="button">
-                <button type="button" onclick="calculateDemeritPoints()">Check Speed</button>
+                <button type="submit">Check Speed</button>
               </div>
             </form>
+            <p id="error"></p>
             <p id="demerit-points"></p>
           </div>
         </div>
@@ -78,23 +80,27 @@
         <div class="card">
           <div class="net-content">
             <h2>NET SALARY CALCULATOR</h2>
-            <form>
+            <form id="calculator" onsubmit="return validateFormNetSalary()">
               <div class="input-field">
                 <span class="details">BASIC SALARY</span>
                 <input type="number" id="basic-salary" name="basic-salary" placeholder="KSH" required />
               </div>
               <div class="input-field">
                 <span class="details">ADDITIONAL BENEFITS</span>
-                <input type="number" id="benefits" name="benefits" placeholder="KSH" required />
+                <input type="number" id="benefits" name="benefits" placeholder="KSH" required/>
               </div>
               <div class="button">
-                <button type="button" onclick="calculateNetSalary()">Calculate</button>
+                <button type="submit">Calculate</button>
               </div>
             </form>
+            <p id="error"></p>
             <p id="salary"></p>
           </div>
         </div>
       </div>
     </main>
+    <footer>
+      <p>&copy; 2024 Will Wagura. All rights reserved.</p>
+    </footer>
   </body>
 </html>

@@ -1,3 +1,23 @@
+// Creates a form validation function //
+function validateFormNetSalary() {
+    let basicSalary = parseFloat(document.getElementById("basic-salary").value);
+    let benefits = parseFloat(document.getElementById("benefits").value);
+    // Checks if the input field is empty an relays a message //
+    if(basicSalary === "" || benefits === "") {
+        document.getElementById("error").innerText = "Input values required";
+        return false;
+    }
+    // Checks if the values within the input fields are valid //
+    if(isNaN(basicSalary) || isNaN(benefits)) {
+        document.getElementById("error").innerText = "Enter valid values";
+        return false;
+    }
+    // Clears any errors within the checks and calls the net salary function to execute //
+    document.getElementById("error").innerText = ""
+    calculateNetSalary();
+    return false;
+}
+// Creates a function to calculate the net salary //
 function calculateNetSalary() {
     let basicSalary = parseFloat(document.getElementById("basic-salary").value);
     let benefits = parseFloat(document.getElementById("benefits").value);

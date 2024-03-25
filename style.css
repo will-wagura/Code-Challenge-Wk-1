@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  position: absolute ;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -26,20 +26,21 @@ header {
   text-align: center;
   font-size: 18px;
   font-weight: 800;
-  font-stretch: 2px;
+  letter-spacing: 2px;
 }
 
 .card-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  height: auto;
 }
 
 .card {
   width: 350px;
+  height: 550px;
   padding: 30px;
   margin: 30px;
-  margin-top: 50px;
   background: antiquewhite;
   border-radius: 15px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
@@ -135,8 +136,17 @@ form button:hover {
 
 #results,
 #demerit-points,
-#salary {
+#salary, #error {
   text-align: center;
   font-size: 16px;
   padding: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  letter-spacing: 2px;
 }
